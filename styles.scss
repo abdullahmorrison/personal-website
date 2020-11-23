@@ -17,6 +17,7 @@
   /*Colors*/
   --mainColor: #0BB7EE;
   --secondaryColor: #ffffff;
+  --tertiaryColor: #F9F560;
 
   /*Text Colors*/
   --mainText: #ffffff;
@@ -33,19 +34,32 @@
 body {
   background: linear-gradient(#0BB7EE, #FFFFFF);
   color: var(--mainText);
-  font-family: Impact, Helvetica, sans-serif;
   height: 100vh;
+  padding: 20px;
+}
+h1{
+  font-size: 5em;
+}
+h2{
+  font-size: 3em;
+}
+main{
+  height: 90vh;
+  padding: 200px 50px;
+}
+img{
+  position: absolute;
+  top: 25.7%;
+  left: 37.6%;
 }
 
 /*****************1.2 HEADER********************/
 header {
-  padding: 5px 10px 5px 0px;
-  nav li {
-    a {
-      color: var(--mainText);
-      font-size: 25px;
-      text-decoration: none;
-    }
+  li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    margin: 0 70px;
   }
 }
 /**------------------------------------------
@@ -54,3 +68,9 @@ header {
 /**------------------------------------------
 **            3. COMPONENTS
 **------------------------------------------*/
+button{
+  background: var(--tertiaryColor);
+  border-radius: 10px;
+  font-size: 1.3em;
+  padding: 10px;
+}
