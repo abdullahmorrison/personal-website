@@ -21,45 +21,46 @@
 
   /*Text Colors*/
   --mainText: #ffffff;
+  --secondaryText: #000000;
 }
 /**------------------------------------------
 **            1. lAYOUTS
 **------------------------------------------*/
 /******************1.1 Main******************/
-
 * {
   margin: 0;
   padding: 0;
 }
+html{
+  height: 100%;
+}
 body {
-  background: linear-gradient(#0BB7EE, #FFFFFF);
+  background: linear-gradient(#0BB7EE, #FFFFFF 90vh);
   color: var(--mainText);
-  height: 100vh;
-  padding: 20px;
-}
-h1{
-  font-size: 5em;
-}
-h2{
-  font-size: 3em;
+  height: 100%;
 }
 main{
-  height: 90vh;
-  padding: 200px 50px;
+  padding: 22vh 0 0 5vw;
+  h1{
+    font-size: 5.5vw;
+  }
+  h2{
+    font-size: 3.5vw;
+  }
+  img{
+    position: absolute;
+    top: 25vh;
+    left: 35vw;
+  }
 }
-img{
-  position: absolute;
-  top: 25.7%;
-  left: 37.6%;
-}
-
 /*****************1.2 HEADER********************/
 header {
+  padding-top: 20px;
   li {
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 2vw;
     list-style-type: none;
-    margin: 0 70px;
+    margin: 0 5%;
   }
 }
 /**------------------------------------------
@@ -71,6 +72,7 @@ header {
 button{
   background: var(--tertiaryColor);
   border-radius: 10px;
-  font-size: 1.3em;
-  padding: 10px;
+  color: var(--secondaryText);
+  font-size: 1.3vw;
+  padding: 1vw;
 }

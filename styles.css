@@ -20,6 +20,7 @@
   --tertiaryColor: #F9F560;
   /*Text Colors*/
   --mainText: #ffffff;
+  --secondaryText: #000000;
 }
 
 /**------------------------------------------
@@ -31,39 +32,45 @@
   padding: 0;
 }
 
+html {
+  height: 100%;
+}
+
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#0BB7EE), to(#FFFFFF));
-  background: linear-gradient(#0BB7EE, #FFFFFF);
+  background: -webkit-gradient(linear, left top, left bottom, from(#0BB7EE), color-stop(90vh, #FFFFFF));
+  background: linear-gradient(#0BB7EE, #FFFFFF 90vh);
   color: var(--mainText);
-  height: 100vh;
-  padding: 20px;
-}
-
-h1 {
-  font-size: 5em;
-}
-
-h2 {
-  font-size: 3em;
+  height: 100%;
 }
 
 main {
-  height: 90vh;
-  padding: 200px 50px;
+  padding: 22vh 0 0 5vw;
 }
 
-img {
+main h1 {
+  font-size: 5.5vw;
+}
+
+main h2 {
+  font-size: 3.5vw;
+}
+
+main img {
   position: absolute;
-  top: 25.7%;
-  left: 37.6%;
+  top: 25vh;
+  left: 35vw;
 }
 
 /*****************1.2 HEADER********************/
+header {
+  padding-top: 20px;
+}
+
 header li {
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 2vw;
   list-style-type: none;
-  margin: 0 70px;
+  margin: 0 5%;
 }
 
 /**------------------------------------------
@@ -75,7 +82,8 @@ header li {
 button {
   background: var(--tertiaryColor);
   border-radius: 10px;
-  font-size: 1.3em;
-  padding: 10px;
+  color: var(--secondaryText);
+  font-size: 1.3vw;
+  padding: 1vw;
 }
 /*# sourceMappingURL=styles.css.map */
