@@ -15,13 +15,16 @@
 */
 :root {
   /*Colors*/
-  --mainColor: #0BB7EE;
+  --mainColor: #2a335e;
   --secondaryColor: #ffffff;
   --tertiaryColor: #F9F560;
 
   /*Text Colors*/
   --mainText: #ffffff;
   --secondaryText: #000000;
+
+  /*Font*/
+  --font: 'Roboto Slab', serif;
 }
 /**------------------------------------------
 **            1. lAYOUTS
@@ -35,17 +38,18 @@ html{
   height: 100%;
 }
 body {
-  background: linear-gradient(#0BB7EE, #FFFFFF 90vh);
+  background: var(--mainColor);
   color: var(--mainText);
   height: 100%;
+  font-family: var(--font);
 }
 main{
   padding: 22vh 0 0 5vw;
   h1{
-    font-size: 5.5vw;
+    font-size: 5vw;
   }
   h2{
-    font-size: 3.5vw;
+    font-size: 3vw;
   }
   img{
     position: absolute;
@@ -53,14 +57,22 @@ main{
     left: 35vw;
   }
 }
+a{
+  color: var(--mainText);
+  text-decoration: none; 
+}
 /*****************1.2 HEADER********************/
 header {
   padding-top: 20px;
+  text-align: right;
   li {
     display: inline-block;
-    font-size: 2vw;
+    font-size: 1.5vw;
     list-style-type: none;
     margin: 0 5%;
+    a:hover{
+      color: var(--tertiaryColor);
+    }
   }
 }
 /**------------------------------------------
@@ -71,8 +83,13 @@ header {
 **------------------------------------------*/
 button{
   background: var(--tertiaryColor);
-  border-radius: 10px;
+  border-radius: 5px;
   color: var(--secondaryText);
+  font-family: var(--font);
   font-size: 1.3vw;
   padding: 1vw;
+  
+}
+button:hover{
+  box-shadow: 3px 0 10px black;
 }

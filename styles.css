@@ -15,12 +15,14 @@
 */
 :root {
   /*Colors*/
-  --mainColor: #0BB7EE;
+  --mainColor: #2a335e;
   --secondaryColor: #ffffff;
   --tertiaryColor: #F9F560;
   /*Text Colors*/
   --mainText: #ffffff;
   --secondaryText: #000000;
+  /*Font*/
+  --font: 'Roboto Slab', serif;
 }
 
 /**------------------------------------------
@@ -37,10 +39,10 @@ html {
 }
 
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#0BB7EE), color-stop(90vh, #FFFFFF));
-  background: linear-gradient(#0BB7EE, #FFFFFF 90vh);
+  background: var(--mainColor);
   color: var(--mainText);
   height: 100%;
+  font-family: var(--font);
 }
 
 main {
@@ -48,11 +50,11 @@ main {
 }
 
 main h1 {
-  font-size: 5.5vw;
+  font-size: 5vw;
 }
 
 main h2 {
-  font-size: 3.5vw;
+  font-size: 3vw;
 }
 
 main img {
@@ -61,16 +63,26 @@ main img {
   left: 35vw;
 }
 
+a {
+  color: var(--mainText);
+  text-decoration: none;
+}
+
 /*****************1.2 HEADER********************/
 header {
   padding-top: 20px;
+  text-align: right;
 }
 
 header li {
   display: inline-block;
-  font-size: 2vw;
+  font-size: 1.5vw;
   list-style-type: none;
   margin: 0 5%;
+}
+
+header li a:hover {
+  color: var(--tertiaryColor);
 }
 
 /**------------------------------------------
@@ -81,9 +93,15 @@ header li {
 **------------------------------------------*/
 button {
   background: var(--tertiaryColor);
-  border-radius: 10px;
+  border-radius: 5px;
   color: var(--secondaryText);
+  font-family: var(--font);
   font-size: 1.3vw;
   padding: 1vw;
+}
+
+button:hover {
+  -webkit-box-shadow: 3px 0 10px black;
+          box-shadow: 3px 0 10px black;
 }
 /*# sourceMappingURL=styles.css.map */
