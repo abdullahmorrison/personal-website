@@ -4,8 +4,9 @@
       1. LAYOUTS
         1.1 Main
         1.2 Header
-        1.3 Footer
+        1.3 Blog Posts
       2. PAGES
+        2.1 Blog
       3. COMPONENTS
 
               NOTES
@@ -29,7 +30,7 @@
 /**------------------------------------------
 **            1. lAYOUTS
 **------------------------------------------*/
-/******************1.1 Main******************/
+/******************1.1 MAIN******************/
 * {
   margin: 0;
   padding: 0;
@@ -43,7 +44,7 @@ body {
   height: 100%;
   font-family: var(--font);
 }
-main{
+.introduction{
   padding: 22vh 0 0 5vw;
   h1{
     font-size: 5vw;
@@ -75,12 +76,23 @@ header {
     }
   }
 }
+/*****************1.3 BLOG POSTS********************/
+.blog_container{
+  background: var(--secondaryColor);
+  color:var(--secondaryText);
+}
 /**------------------------------------------
 **            2. PAGES
 **------------------------------------------*/
+/*****************2.1 BLOG********************/
+.blog_post{
+  color:var(--secondaryText);
+  background: var(--secondaryColor);
+}
 /**------------------------------------------
 **            3. COMPONENTS
 **------------------------------------------*/
+/*****************3.1 BUTTONS********************/
 button{
   background: var(--tertiaryColor);
   border-radius: 5px;
