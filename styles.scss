@@ -80,6 +80,8 @@ header {
 .blog_container{
   background: var(--secondaryColor);
   color:var(--secondaryText);
+  margin: 5% 5vw;
+  padding: 3%;
 }
 /**------------------------------------------
 **            2. PAGES
@@ -88,6 +90,11 @@ header {
 .blog_post{
   color:var(--secondaryText);
   background: var(--secondaryColor);
+  margin: 5%;
+  padding: 10px;
+}
+.blog_post:hover{
+  background: var(--tertiaryColor);
 }
 /**------------------------------------------
 **            3. COMPONENTS
