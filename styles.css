@@ -104,6 +104,8 @@ header li a:hover {
 **------------------------------------------*/
 /*****************2.1 BLOG********************/
 .blog_post {
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
   color: var(--secondaryText);
   background: var(--secondaryColor);
   margin: 5%;

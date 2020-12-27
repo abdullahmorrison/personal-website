@@ -94,6 +94,11 @@ header {
 **------------------------------------------*/
 /*****************2.1 BLOG********************/
 .blog_post{
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+
   color:var(--secondaryText);
   background: var(--secondaryColor);
   margin: 5%;
