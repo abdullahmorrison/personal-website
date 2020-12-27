@@ -82,6 +82,11 @@ header li {
   margin: 0 5%;
 }
 
+header li a {
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
 header li a:hover {
   color: var(--tertiaryColor);
 }
@@ -114,6 +119,8 @@ header li a:hover {
 **------------------------------------------*/
 /*****************3.1 BUTTONS********************/
 button {
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
   background: var(--tertiaryColor);
   border-radius: 5px;
   color: var(--secondaryText);
