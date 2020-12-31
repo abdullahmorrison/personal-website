@@ -64,10 +64,6 @@ body {
     left: 35vw;
   }
 }
-a{
-  color: var(--mainText);
-  text-decoration: none; 
-}
 /*****************1.2 HEADER********************/
 header {
   padding-top: 20px;
@@ -77,6 +73,10 @@ header {
     font-size: 1.5vw;
     list-style-type: none;
     margin: 0 5%;
+    a{
+      color: var(--mainText);
+      text-decoration: none; 
+    }
     a:hover{
       color: var(--tertiaryColor);
     }
@@ -91,6 +91,13 @@ header {
   p{
     margin-bottom: 20px;
   }
+  li{
+    margin-left: 50px;
+  }
+  .blog_post_title{
+    margin-bottom: 30px;
+    text-align: center;
+  }
 }
 /**------------------------------------------
 **            2. PAGES
@@ -102,27 +109,28 @@ header {
 .blog_topic{
   color:var(--secondaryText);
   background: var(--secondaryColor);
+  box-shadow: 1px 1px 10px black;
   margin: 5%;
   padding: 10px;
 }
 .blog_topic:hover{
   background: var(--tertiaryColor);
+  box-shadow: 5px 5px 10px black;
 }
 /**------------------------------------------
 **            3. COMPONENTS
 **------------------------------------------*/
 /*****************3.1 BUTTONS********************/
 button{
-
   background: var(--tertiaryColor);
+  box-shadow: 1px 1px 10px black;
   border-radius: 5px;
   color: var(--secondaryText);
   font-family: var(--font);
   font-size: 1.3vw;
   padding: 1vw;
-  
 }
 button:hover{
-  box-shadow: 3px 0 10px black;
+  box-shadow: 5px 5px 10px black;
   cursor: pointer;
 }
