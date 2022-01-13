@@ -1,0 +1,43 @@
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card img {
+  max-width: 200px;
+  margin: 10px;
+}
+
+.card .info {
+  background-color: grey;
+  padding: 5px;
+}
+
+.card .info header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card .info header .links img {
+  max-width: 20px;
+  margin: 0 5px;
+}
+/*# sourceMappingURL=card.module.css.map */
