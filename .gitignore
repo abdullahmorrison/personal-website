@@ -12,7 +12,7 @@
 /build
 
 # css
-*.scss
+*.css
 *.css.map
 
 # misc
