@@ -21,11 +21,11 @@ const Card=(props:CardProps)=>{
                     <h3>{props.title}</h3>
                     <div className={styles.links}>
                             {props.websiteLink ?
-                                <a href={props.websiteLink} target='_blank'><img src={websiteIcon} alt="Website Icon" /></a>
+                                <a href={props.websiteLink} target='_blank' rel="noreferrer"><img src={websiteIcon} alt="Website Icon" /></a>
                                 : null
                             }
                             {props.gitHubLink ?
-                                <a href={props.gitHubLink} target='_blank'><img src={gitHubIcon} alt="GitHub Icon" /></a>
+                                <a href={props.gitHubLink} target='_blank' rel="noreferrer"><img src={gitHubIcon} alt="GitHub Icon" /></a>
                                 : null
                             }
                     </div>  
