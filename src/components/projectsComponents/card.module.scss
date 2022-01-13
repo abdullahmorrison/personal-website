@@ -13,17 +13,23 @@
     }
     .info{
         background-color: grey;
-        padding: 5px;
+        border-radius: 0 0 5px 5px;
+        width: 100%;
+        margin-top: auto; /*FIX*/
+        
         header{
             display: flex;
             align-items: center;
             justify-content: space-between;
-
+            padding: 10px 10px 0 10px;
             
             .links img{
                 max-width: 20px;
                 margin: 0 5px;
             }
+        }
+        p{
+            padding: 10px;
         }
     }
 }
