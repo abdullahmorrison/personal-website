@@ -1,0 +1,15 @@
+.projectsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 50px;
+}
+.title{
+    font-size: 2.5rem;
+    margin-bottom: 100px;
+}
