@@ -21,7 +21,7 @@ const Projects=()=>{
                     title="The PGP Scale"
                     websiteLink="https://pgpscale.netlify.app/"
                     gitHubLink="https://github.com/abdullahmorrison/ThePerceivedGoalProgressScale"
-                    description="A mindfullness tool"
+                    description="A mindfullness tool that helps users track how they feel about the possibility of achieving their goals."
                 />
                 <Card 
                     imgSrc={superTFBingo} 
@@ -35,14 +35,14 @@ const Projects=()=>{
                     title="My Personal Website"
                     websiteLink="https://abdullahmorrison.com"
                     gitHubLink="https://github.com/abdullahmorrison/PersonalWebsite"
-                    description="My personal website."
+                    description="A website that showcases my personal projects."
                 />
                 <Card 
                     imgSrc={signInPage} 
                     title="Sign-In Page"
                     websiteLink="https://abdullahsigninpage.netlify.app/"
                     gitHubLink='https://github.com/abdullahmorrison/Sign-in-Page'
-                    description="A sign-in page"
+                    description="A sign-in page that was created for a job interview take-home project"
                 />
                 <Card 
                     imgSrc={xqcBingo} 
