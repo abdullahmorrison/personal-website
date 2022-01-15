@@ -27,6 +27,10 @@
 
         button{
             all: unset;
+
+            background-color: white;
+            transition: background-color 0.5s;
+
             border: 1px solid black;
             border-radius: 5px;
             padding: 10px 15px;
