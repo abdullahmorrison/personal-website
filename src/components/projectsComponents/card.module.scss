@@ -2,6 +2,7 @@
     border: 1px solid black;
     border-radius: 10px;
     width: 250px;
+    height: 350px;
 
     display: flex;
     flex-direction: column;
@@ -22,7 +23,9 @@
             align-items: center;
             justify-content: space-between;
             padding: 10px 10px 0 10px;
-            
+           .links{
+               display: flex;
+           } 
             .links img{
                 max-width: 20px;
                 margin: 0 5px;
