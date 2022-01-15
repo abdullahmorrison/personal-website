@@ -32,7 +32,7 @@ const Projects=()=>{
                 />
                 <Card 
                     imgSrc={personalWebsite} 
-                    title="My Personal Website"
+                    title="Personal Website"
                     websiteLink="https://abdullahmorrison.com"
                     gitHubLink="https://github.com/abdullahmorrison/PersonalWebsite"
                     description="A website that showcases my personal projects."
