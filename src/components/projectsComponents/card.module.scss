@@ -2,27 +2,41 @@
     border: 1px solid black;
     border-radius: 10px;
     width: 250px;
-    height: 350px;
+    height: 300px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
+    position: relative; /* To fix .info to the bottom of div */
+
     img{
         max-width: 200px;
-        margin: 10px;
+        margin: 30px 10px 10px 10px;
     }
     .info{
         background-color: grey;
         border-radius: 0 0 5px 5px;
-        width: 100%;
-        margin-top: auto; /*FIX*/
+        height: 30px;
+        width: 230px;
+        padding: 5px 10px 20px 10px;
+
+        position: absolute; /* to fix .info to the bottom of div */
+        bottom: 0;
         
+        transition: height 0.5s, border-radius 0.5s;
         header{
             display: flex;
             align-items: center;
             justify-content: space-between;
             padding: 10px 10px 0 10px;
+
+            h3{
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                transition: white-space 0.5s;
+            }
            .links{
                display: flex;
            } 
@@ -31,8 +45,22 @@
                 margin: 0 5px;
             }
         }
-        p{
+        .description{
+            visibility: hidden;
+            opacity: 0;
+            transition: visibility 1s, opacity 0.2s linear;
+        }
+    }
+}
+.card:hover{
+    .info{
+        height: 275px;
+        border-radius: 10px;
+        .description{
+            visibility: visible;
+            opacity: 1;
             padding: 10px;
         }
     }
+
 }

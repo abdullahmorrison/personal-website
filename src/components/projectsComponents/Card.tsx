@@ -30,7 +30,7 @@ const Card=(props:CardProps)=>{
                             }
                     </div>  
                 </header>
-                <p>{props.description}</p>
+                <p className={styles.description}>{props.description}</p>
            </div>
         </div>
     )
