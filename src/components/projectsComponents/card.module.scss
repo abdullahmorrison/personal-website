@@ -21,10 +21,12 @@
         width: 230px;
         padding: 5px 10px 20px 10px;
 
+        // the description transition
         position: absolute; /* to fix .info to the bottom of div */
         bottom: 0;
-        
         transition: height 0.5s, border-radius 0.5s;
+        overflow: hidden; //hiding the content in the description 
+
         header{
             display: flex;
             align-items: center;
@@ -46,9 +48,7 @@
             }
         }
         .description{
-            visibility: hidden;
-            opacity: 0;
-            transition: visibility 1s, opacity 0.2s linear;
+            padding: 15px 10px;
         }
     }
 }
@@ -56,11 +56,5 @@
     .info{
         height: 275px;
         border-radius: 10px;
-        .description{
-            visibility: visible;
-            opacity: 1;
-            padding: 10px;
-        }
     }
-
 }
