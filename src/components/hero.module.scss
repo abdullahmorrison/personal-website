@@ -19,7 +19,13 @@
         color: black;
     }
 
+    .selfIntro{
+        animation: fadeIn 5s;
+    }
+
     .callToAction{
+        animation: fadeInDelayed 5s;
+
         margin-top: 50px;
         display: flex;
         flex-wrap: wrap;
@@ -44,4 +50,15 @@
             background-color: #dddddd;
         }
     }
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    10% {opacity: 0;}
+    100% {opacity:1;}
+}      
+@keyframes fadeInDelayed {
+   0% {opacity: 0;} 
+   50% {opacity: 0;}
+   100% {opacity: 1;}
 }
