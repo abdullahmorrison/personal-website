@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ReactGA from 'react-ga';//Google Analytics
+
+const MEASUREMENT_ID = "G-JWH3T51SJX"; 
+ReactGA.initialize(MEASUREMENT_ID);
 
 ReactDOM.render(
   <React.StrictMode>
