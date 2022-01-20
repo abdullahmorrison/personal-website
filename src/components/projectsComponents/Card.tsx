@@ -10,7 +10,10 @@ interface CardProps {
     title: string,
     websiteLink?: string,
     gitHubLink?: string,
-    description: string
+    description:{
+        about: string,
+        techStack: string[]
+    } 
 }
 const Card=(props:CardProps)=>{
     return(
@@ -30,7 +33,18 @@ const Card=(props:CardProps)=>{
                             }
                     </div>  
                 </header>
-                <p className={styles.description}>{props.description}</p>
+                <div className={styles.description}>
+                    <p className={styles.about}>{props.description.about}</p>
+
+                    <p className={styles.techStack}>Tech Stack:</p>
+                    <ul>
+                        {props.description.techStack.map((tech) =>
+                            <li key={tech}>
+                                {tech}
+                            </li>
+                        )}
+                    </ul>
+                </div>
            </div>
         </div>
     )

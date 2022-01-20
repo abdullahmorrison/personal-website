@@ -49,6 +49,15 @@
         }
         .description{
             padding: 15px 10px;
+            .about{
+                margin-bottom: 20px;
+            }
+            .techStack{
+                margin-bottom: 10px;
+            }
+            ul{
+                margin-left: 20px;
+            }
         }
     }
 }

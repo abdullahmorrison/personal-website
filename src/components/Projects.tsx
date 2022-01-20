@@ -17,35 +17,50 @@ const cardData=[
         title:"The PGP Scale",
         websiteLink:"https://pgpscale.netlify.app/",
         gitHubLink:"https://github.com/abdullahmorrison/ThePerceivedGoalProgressScale",
-        description:"A mindfullness tool that helps users track how they feel about the possibility of achieving their goals."
+        description:{
+            about:"A mindfullness tool that helps users track how they feel about the possibility of achieving their goals.",
+            techStack: ['MongoDB','Express','React','NodeJS']
+        }
     },
     {
         imgSrc:superTFBingo, 
         title:"SuperTF Bingo",
         websiteLink:"https://supertfbingo.com",
         gitHubLink:"https://github.com/abdullahmorrison/SuperTFBingo",
-        description:"A website that lets you play a bingo game about the Twitch streamer, SuperTF"
+        description:{
+            about:"A website that lets you play a bingo game about the Twitch streamer, SuperTF",
+            techStack: ['Vue','CSS']
+        }
     },
     {
         imgSrc:personalWebsite,
         title:"Personal Website",
         websiteLink:"https://abdullahmorrison.com",
         gitHubLink:"https://github.com/abdullahmorrison/PersonalWebsite",
-        description:"A website that showcases my personal projects."
+        description:{
+            about:"A website that showcases my personal projects.",
+            techStack: ['React','SASS']
+        }
     },
     {
         imgSrc:signInPage, 
         title:"Sign-In Page",
         websiteLink:"https://abdullahsigninpage.netlify.app/",
         gitHubLink:'https://github.com/abdullahmorrison/Sign-in-Page',
-        description:"A sign-in page that was created for a job interview take-home project"
+        description:{
+            about:"A sign-in page that was created for a job interview take-home project",
+            techStack: ['React','SASS']
+        }
     },
     {
         imgSrc:xqcBingo,
         title:"xQc Bingo",
         websiteLink:'https://xqcbingo.com/',
         gitHubLink:'https://github.com/abdullahmorrison/xQcBingo',
-        description:"A website that lets you play a bingo game about the Twitch streamer, xQcOW"
+        description:{
+            about:"A website that lets you play a bingo game about the Twitch streamer, xQcOW",
+            techStack: ['HTML', 'CSS','JQuery']
+        }
     }
 ]
 
