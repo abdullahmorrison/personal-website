@@ -14,6 +14,7 @@ import styles from './projects.module.css'
 const cardData=[
     {
         imgSrc:pgpScale, 
+        imgAltText: "PGP Scale",
         title:"The PGP Scale",
         websiteLink:"https://pgpscale.netlify.app/",
         gitHubLink:"https://github.com/abdullahmorrison/ThePerceivedGoalProgressScale",
@@ -24,6 +25,7 @@ const cardData=[
     },
     {
         imgSrc:superTFBingo, 
+        imgAltText: "SuperTF Bingo",
         title:"SuperTF Bingo",
         websiteLink:"https://supertfbingo.com",
         gitHubLink:"https://github.com/abdullahmorrison/SuperTFBingo",
@@ -34,6 +36,7 @@ const cardData=[
     },
     {
         imgSrc:personalWebsite,
+        imgAltText: "Personal Website",
         title:"Personal Website",
         websiteLink:"https://abdullahmorrison.com",
         gitHubLink:"https://github.com/abdullahmorrison/PersonalWebsite",
@@ -44,6 +47,7 @@ const cardData=[
     },
     {
         imgSrc:signInPage, 
+        imgAltText: "Sign-in Page",
         title:"Sign-In Page",
         websiteLink:"https://abdullahsigninpage.netlify.app/",
         gitHubLink:'https://github.com/abdullahmorrison/Sign-in-Page',
@@ -54,6 +58,7 @@ const cardData=[
     },
     {
         imgSrc:xqcBingo,
+        imgAltText: "xQc Bingo",
         title:"xQc Bingo",
         websiteLink:'https://xqcbingo.com/',
         gitHubLink:'https://github.com/abdullahmorrison/xQcBingo',
@@ -72,6 +77,7 @@ const Projects=()=>{
                 {cardData.map((card)=>
                     <Card
                         imgSrc={card.imgSrc} 
+                        imgAltText={card.imgAltText}
                         title={card.title}
                         websiteLink={card.websiteLink}
                         gitHubLink={card.gitHubLink}
