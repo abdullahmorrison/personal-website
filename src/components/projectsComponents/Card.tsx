@@ -17,12 +17,13 @@ interface CardProps {
 }
 const Card=(props:CardProps)=>{
     return(
-        <div className={styles.card}>
-           <img src={props.imgSrc} alt=""/> 
-           <div className={styles.info}>
-               <header>
-                    <h3>{props.title}</h3>
-                    <div className={styles.links}>
+        <div className={styles.cardContainer}>
+            <div className={styles.card}>
+                <img src={props.imgSrc} alt=""/> 
+                <div className={styles.info}>
+                    <header>
+                        <h3>{props.title}</h3>
+                        <div className={styles.links}>
                             {props.websiteLink ?
                                 <a href={props.websiteLink} target='_blank' rel="noreferrer"><img src={websiteIcon} alt="Website Icon" /></a>
                                 : null
@@ -31,22 +32,24 @@ const Card=(props:CardProps)=>{
                                 <a href={props.gitHubLink} target='_blank' rel="noreferrer"><img src={gitHubIcon} alt="GitHub Icon" /></a>
                                 : null
                             }
-                    </div>  
-                </header>
-                <div className={styles.description}>
-                    <p className={styles.about}>{props.description.about}</p>
+                        </div>  
+                    </header>
+                    <div className={styles.description}>
+                        <p className={styles.about}>{props.description.about}</p>
 
-                    <p className={styles.techStack}>Tech Stack:</p>
-                    <ul>
-                        {props.description.techStack.map((tech) =>
-                            <li key={tech}>
-                                {tech}
-                            </li>
-                        )}
-                    </ul>
+                        <p className={styles.techStack}>Tech Stack:</p>
+                        <ul>
+                            {props.description.techStack.map((tech) =>
+                                <li key={tech}>
+                                    {tech}
+                                </li>
+                            )}
+                        </ul>
+                    </div>
                 </div>
-           </div>
+            </div>
         </div>
+        
     )
 }
 export default Card

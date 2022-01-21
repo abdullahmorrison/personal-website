@@ -1,4 +1,10 @@
+.cardContainer{
+    overflow: hidden;
+}
 .card{
+    left: -255px;
+    transition: left 0.5s;
+
     border: 1px solid black;
     border-radius: 10px;
     width: 250px;
@@ -59,6 +65,11 @@
                 margin-left: 20px;
             }
         }
+    }
+}
+.cardContainer:hover{
+    .card{
+        left:0;
     }
 }
 .card:hover{
