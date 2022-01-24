@@ -31,9 +31,7 @@
         flex-wrap: wrap;
         justify-content: center;
 
-        button{
-            all: unset;
-
+        .button{
             background-color: white;
             transition: background-color 0.5s;
 
