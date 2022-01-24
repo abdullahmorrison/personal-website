@@ -7,6 +7,7 @@ import gitHubIcon from '../images/gitHubIcon.svg'
 
 interface CardProps {
     imgSrc: string,
+    imgAltText: string,
     title: string,
     websiteLink?: string,
     gitHubLink?: string,
@@ -18,7 +19,7 @@ interface CardProps {
 const Card=(props:CardProps)=>{
     return(
         <div className={styles.card}>
-           <img src={props.imgSrc} alt=""/> 
+           <img src={props.imgSrc} alt={props.imgAltText}/> 
            <div className={styles.info}>
                <header>
                     <h3>{props.title}</h3>
