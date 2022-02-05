@@ -2,7 +2,7 @@
 import styles from './card.module.css'
 
 //Images
-import websiteIcon from '../images/websiteIcon.svg'
+import externalLinkIcon from '../images/externalLinkIcon.svg'
 import gitHubIcon from '../images/gitHubIcon.svg'
 
 interface CardProps {
@@ -29,7 +29,7 @@ const Card=(props:CardProps)=>{
                                 : null
                             }
                             {props.websiteLink ?
-                                <a href={props.websiteLink} target='_blank' rel="noreferrer"><img src={websiteIcon} alt="Website Icon" /></a>
+                                <a href={props.websiteLink} target='_blank' rel="noreferrer"><img src={externalLinkIcon} alt="Website Icon" /></a>
                                 : null
                             }
                     </div>  
