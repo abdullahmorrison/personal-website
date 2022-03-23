@@ -7,20 +7,21 @@ import pgpScale from './images/pgpscale.png'
 import personalWebsite from './images/personalwebsite.png'
 import signInPage from './images/signinpage.png'
 import xqcBingo from './images/xqcbingo.png'
+import mayaBingo from './images/mayabingo.png'
 
 //CSS
 import styles from './projects.module.css'
 
 const cardData=[
     {
-        imgSrc:pgpScale, 
-        imgAltText: "PGP Scale",
-        title:"The PGP Scale",
-        websiteLink:"https://pgpscale.netlify.app/",
-        gitHubLink:"https://github.com/abdullahmorrison/ThePerceivedGoalProgressScale",
+        imgSrc: mayaBingo, 
+        imgAltText: "Maya Bingo",
+        title:"Maya Bingo",
+        websiteLink:"https://mayahigabingo.netlify.app",
+        gitHubLink:"https://github.com/abdullahmorrison/MayaBingo",
         description:{
-            about:"A mindfullness tool that helps users track how they feel about the possibility of achieving their goals.",
-            techStack: ['MongoDB','Express','React','NodeJS']
+            about:"A website that lets users play a bingo game about the Twitch streamer and animal conservationist, Maya Higa",
+            techStack: ['Angular', 'SCSS']
         }
     },
     {
@@ -32,6 +33,17 @@ const cardData=[
         description:{
             about:"A website that lets you play a bingo game about the Twitch streamer, SuperTF",
             techStack: ['Vue','CSS']
+        }
+    },
+    {
+        imgSrc:pgpScale, 
+        imgAltText: "PGP Scale",
+        title:"The PGP Scale",
+        websiteLink:"https://pgpscale.netlify.app/",
+        gitHubLink:"https://github.com/abdullahmorrison/ThePerceivedGoalProgressScale",
+        description:{
+            about:"A mindfullness tool that helps users track how they feel about the possibility of achieving their goals.",
+            techStack: ['MongoDB','Express','React','NodeJS']
         }
     },
     {
