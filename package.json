@@ -18,7 +18,7 @@
     "web-vitals": "^2.1.3"
   },
   "scripts": {
-    "compile:sass": "sass src/index.scss src/index.css && sass src/components/projects.module.scss src/components/projects.module.css && sass src/components/hero.module.scss src/components/hero.module.css && sass src/components/projectsComponents/card.module.scss src/components/projectsComponents/card.module.css",
+    "compile:sass": "sass src/index.scss src/index.css && sass src/components/projects.module.scss src/components/projects.module.css && sass src/components/hero.module.scss src/components/hero.module.css && sass src/components/projectsComponents/card.module.scss src/components/projectsComponents/card.module.css sass src/components/projectsComponents/cardRibbon.module.scss src/components/projectsComponents/cardRibbon.module.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
