@@ -1,3 +1,6 @@
+//Components
+import CardRibbon from './CardRibbon'
+
 //CSS
 import styles from './card.module.css'
 
@@ -14,11 +17,14 @@ interface CardProps {
     description:{
         about: string,
         techStack: string[]
-    } 
+    },
+    incomplete?: boolean
 }
 const Card=(props:CardProps)=>{
     return(
         <div className={styles.card}>
+            {props.incomplete ? <CardRibbon/> : null}
+
            <img src={props.imgSrc} alt={props.imgAltText}/> 
            <div className={styles.info}>
                <header>

@@ -22,7 +22,8 @@ const cardData=[
         description:{
             about:"A website that lets users play a bingo game about the Twitch streamer and animal conservationist, Maya Higa",
             techStack: ['Angular', 'SCSS']
-        }
+        },
+        incomplete: true
     },
     {
         imgSrc:superTFBingo, 
@@ -44,7 +45,8 @@ const cardData=[
         description:{
             about:"A mindfullness tool that helps users track how they feel about the possibility of achieving their goals.",
             techStack: ['MongoDB','Express','React','NodeJS']
-        }
+        },
+        incomplete: true
     },
     {
         imgSrc:personalWebsite,
@@ -98,6 +100,7 @@ const Projects=()=>{
                         websiteLink={card.websiteLink}
                         gitHubLink={card.gitHubLink}
                         description={card.description}
+                        incomplete={card.incomplete}
                     /> 
                 )}
             </div>
