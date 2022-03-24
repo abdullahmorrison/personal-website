@@ -85,6 +85,10 @@ const Projects=()=>{
     return(
         <main className={styles.projectsContainer}>
             <h2 className={styles.title}>My Projects</h2>
+            <h3 className={styles.description}>
+                These are the projects that I have been working on.
+                They are ordered by how much I value the project.
+            </h3>
             <div className={styles.projects}>
                 {cardData.map((card)=>
                     <Card
@@ -96,7 +100,7 @@ const Projects=()=>{
                         description={card.description}
                     /> 
                 )}
-           </div>
+            </div>
         </main>
     )
 }
