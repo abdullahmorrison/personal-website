@@ -10,7 +10,8 @@
         margin-bottom: 20px;
     }
     .description{
-        width: 60vw;
+        max-width: 800px;
+        margin: 0 20px;
     }
     .projects{
         display: grid;
