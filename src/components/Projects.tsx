@@ -8,6 +8,7 @@ import personalWebsite from './images/personalwebsite.png'
 import signInPage from './images/signinpage.png'
 import xqcBingo from './images/xqcbingo.png'
 import mayaBingo from './images/mayabingo.png'
+import Shoppies from './images/shoppies.png'
 
 //CSS
 import styles from './projects.module.css'
@@ -79,6 +80,17 @@ const cardData=[
         description:{
             about:"A website that lets you play a bingo game about the Twitch streamer, xQcOW",
             techStack: ['HTML', 'CSS','JQuery']
+        }
+    },
+    {
+        imgSrc: Shoppies,
+        imgAltText: "Shoppies Site",
+        title:"Shoppies",
+        websiteLink:'https://abdullahmorrisonshopify.netlify.app/',
+        gitHubLink:'https://github.com/abdullahmorrison/Shoppies',
+        description:{
+            about:"A website for a Shopify interview question that allows you to search for movies and nominate them for an award through the OMDB API.",
+            techStack: ['React', 'CSS']
         }
     }
 ]
