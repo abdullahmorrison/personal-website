@@ -23,8 +23,7 @@ const cardData=[
         description:{
             about:"A website that lets users play a bingo game about the Twitch streamer and animal conservationist, Maya Higa",
             techStack: ['Angular', 'SCSS']
-        },
-        incomplete: true
+        }
     },
     {
         imgSrc:superTFBingo, 
