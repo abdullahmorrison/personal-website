@@ -9,11 +9,22 @@ import signInPage from './images/signinpage.png'
 import xqcBingo from './images/xqcbingo.png'
 import mayaBingo from './images/mayabingo.png'
 import Shoppies from './images/shoppies.png'
+import alveusAmbassadors from './images/alveusAmbassadors.png'
 
 //CSS
 import styles from './projects.module.css'
 
 const cardData=[
+    {
+        imgSrc: alveusAmbassadors, 
+        imgAltText: "Alveus Ambassadors Twitch Extension",
+        title:"Alveus Ambassadors",
+        gitHubLink:"https://github.com/abdullahmorrison/AlveusAmbassadors",
+        description:{
+            about:"A Twitch extension that showcases the animals at Alveus, an animal sanctuary owned by the Twitch streamer, Maya Higa.",
+            techStack: ['React', 'SCSS']
+        }
+    },
     {
         imgSrc: mayaBingo, 
         imgAltText: "Maya Bingo",
