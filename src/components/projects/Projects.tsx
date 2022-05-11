@@ -2,14 +2,14 @@
 import Card from '../card/Card'
 
 //images
-import superTFBingo from './images/supertfbingo.png'
-import pgpScale from './images/pgpscale.png'
-import personalWebsite from './images/personalwebsite.png'
-import signInPage from './images/signinpage.png'
-import xqcBingo from './images/xqcbingo.png'
-import mayaBingo from './images/mayabingo.png'
-import Shoppies from './images/shoppies.png'
-import alveusAmbassadors from './images/alveusAmbassadors.png'
+import superTFBingo from '../../assets/projects/supertfbingo.png'
+import pgpScale from '../../assets/projects/pgpscale.png'
+import personalWebsite from '../../assets/projects/personalwebsite.png'
+import signInPage from '../../assets/projects/signinpage.png'
+import xqcBingo from '../../assets/projects/xqcbingo.png'
+import mayaBingo from '../../assets/projects/mayabingo.png'
+import Shoppies from '../../assets/projects/shoppies.png'
+import alveusAmbassadors from '../../assets/projects/alveusAmbassadors.png'
 
 //CSS
 import styles from './projects.module.css'

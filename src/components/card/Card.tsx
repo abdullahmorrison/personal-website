@@ -5,8 +5,8 @@ import CardRibbon from '../cardRibbon/CardRibbon'
 import styles from './card.module.css'
 
 //Images
-import externalLinkIcon from '../images/externalLinkIcon.svg'
-import gitHubIcon from '../images/gitHubIcon.svg'
+import externalLinkIcon from '../../assets/externalLinkIcon.svg'
+import gitHubIcon from '../../assets/gitHubIcon.svg'
 
 interface CardProps {
     imgSrc: string,
