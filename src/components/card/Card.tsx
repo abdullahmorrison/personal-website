@@ -1,5 +1,5 @@
 //Components
-import CardRibbon from './CardRibbon'
+import CardRibbon from '../cardRibbon/CardRibbon'
 
 //CSS
 import styles from './card.module.css'

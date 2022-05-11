@@ -1,6 +1,6 @@
 //Components
-import Hero from './components/Hero'
-import Projects from './components/Projects';
+import Hero from './hero/Hero'
+import Projects from './projects/Projects';
 
 //CSS
 import './App.css';
