@@ -13,7 +13,7 @@
         "**/.factorypath": true,
         "**/node_modules": true,
         "**/package-lock.json": true,
-        "**/*.css": true,
+        "**/*.css": true
     },
     "hide-files.files": []
 }
