@@ -1,5 +1,5 @@
 //Components
-import Card from './projectsComponents/Card'
+import Card from './projects/Card'
 
 //images
 import superTFBingo from './images/supertfbingo.png'
