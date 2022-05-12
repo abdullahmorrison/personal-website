@@ -1,9 +1,12 @@
+//Components
+import CardRibbon from '../cardRibbon/CardRibbon'
+
 //CSS
 import styles from './card.module.css'
 
 //Images
-import websiteIcon from '../images/websiteIcon.svg'
-import gitHubIcon from '../images/gitHubIcon.svg'
+import externalLinkIcon from '../../assets/externalLinkIcon.svg'
+import gitHubIcon from '../../assets/gitHubIcon.svg'
 
 interface CardProps {
     imgSrc: string,
@@ -14,22 +17,25 @@ interface CardProps {
     description:{
         about: string,
         techStack: string[]
-    } 
+    },
+    incomplete?: boolean
 }
 const Card=(props:CardProps)=>{
     return(
         <div className={styles.card}>
+            {props.incomplete ? <CardRibbon/> : null}
+
            <img src={props.imgSrc} alt={props.imgAltText}/> 
            <div className={styles.info}>
                <header>
                     <h3>{props.title}</h3>
                     <div className={styles.links}>
-                            {props.websiteLink ?
-                                <a href={props.websiteLink} target='_blank' rel="noreferrer"><img src={websiteIcon} alt="Website Icon" /></a>
-                                : null
-                            }
                             {props.gitHubLink ?
                                 <a href={props.gitHubLink} target='_blank' rel="noreferrer"><img src={gitHubIcon} alt="GitHub Icon" /></a>
+                                : null
+                            }
+                            {props.websiteLink ?
+                                <a href={props.websiteLink} target='_blank' rel="noreferrer"><img src={externalLinkIcon} alt="Website Icon" /></a>
                                 : null
                             }
                     </div>  

@@ -1,9 +1,6 @@
 //Components
-import Hero from './components/Hero'
-import Projects from './components/Projects';
-
-//CSS
-import './App.css';
+import Hero from './hero/Hero'
+import Projects from './projects/Projects';
 
 function App() {
   return (
