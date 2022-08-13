@@ -23,7 +23,8 @@ const cardData=[
         description:{
             about:"A Twitch extension that showcases the animals at Alveus, an animal sanctuary owned by the Twitch streamer, Maya Higa.",
             techStack: ['React', 'SCSS']
-        }
+        },
+        incomplete: true
     },
     {
         imgSrc: mayaBingo, 
