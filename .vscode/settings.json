@@ -1,19 +1,24 @@
 {
-    "explorer.compactFolders": false,
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/Thumbs.db": true,
-        "**/.classpath": true,
-        "**/.project": true,
-        "**/.settings": true,
-        "**/.factorypath": true,
-        "**/node_modules": true,
-        "**/package-lock.json": true,
-        "**/*.css": true
-    },
-    "hide-files.files": []
+	"explorer.compactFolders": false,
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true,
+		"**/node_modules": true,
+		"**/package-lock.json": true,
+		"**/*.css": true
+	},
+	"hide-files.files": [],
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#18341D",
+		"titleBar.activeBackground": "#224828",
+		"titleBar.activeForeground": "#F7FBF8"
+	}
 }
