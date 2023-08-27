@@ -1,8 +1,11 @@
-import './globals.css'
+import './globals.scss'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Shippori_Mincho_B1 } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const shippori_mincho_b1 = Shippori_Mincho_B1({ 
+  subsets: ['latin'],
+  weight: '400'
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={shippori_mincho_b1.className}>{children}</body>
     </html>
   )
 }
