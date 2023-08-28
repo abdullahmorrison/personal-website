@@ -3,16 +3,16 @@ import styles from './nav.module.scss'
 export default function nav() {
   return (
     <nav className={styles.nav}>
-      <h3>My Porfolio<span className={styles.period}>.</span></h3>
+      <h4 className={styles.logo}>My Portfolio</h4>
       <ul>
         <li>
-          <h4><a href="">Home</a></h4>
+          <h5><a href="">Home</a></h5>
         </li>
         <li>
-          <h4><a href="">About</a></h4>
+          <h5><a href="">About</a></h5>
         </li>
         <li>
-          <h4><a href="">Contact</a></h4>
+          <h5><a href="">Contact</a></h5>
         </li>
       </ul>
     </nav>
