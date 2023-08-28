@@ -6,19 +6,32 @@
 
 .hero {
     position: absolute;
-    bottom: 50px;
-    left: 50px;
+    bottom: 100px;
+    left: 80px;
 
     .name{
         display: grid;
         line-height: 1;
 
-        .firstName{
+        .firstName, .lastName{
             overflow: hidden;
         }
-        .lastName{
+        .firstName p{
+            animation: slideUp 0.75s ease-out; 
+        }
+        .lastName p{
             color: $title-accent;
-            overflow: hidden;
+            animation: slideDown 1.5s ease-out;
         }
     }
+}
+@keyframes slideUp {
+    0% { transform: translateY(100%); }
+    50% { transform: translateY(100%); }
+    100% { transform: translateY(0%); }
+}
+@keyframes slideDown {
+    0% { transform: translateY(-100%); }
+    50% { transform: translateY(-100%); }
+    100% { transform: translateY(0%); }
 }

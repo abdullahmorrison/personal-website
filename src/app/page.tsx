@@ -8,8 +8,8 @@ export default function Home() {
 
       <main className={styles.hero}>
         <h1 className={styles.name}>
-          <span className={styles.firstName}>Abdullah</span>
-          <span className={styles.lastName}>Morrison</span> 
+          <span className={styles.firstName}><p>Abdullah</p></span>
+          <span className={styles.lastName}><p>Morrison</p></span> 
         </h1>
       </main>
     </div>
