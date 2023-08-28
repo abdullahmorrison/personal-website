@@ -5,11 +5,12 @@
 }
 
 .hero {
-    position: absolute;
-    bottom: 100px;
-    left: 80px;
+    height: 100vh;
 
     .name{
+        position: absolute;
+        bottom: 15%;
+
         display: grid;
         line-height: 1;
 
