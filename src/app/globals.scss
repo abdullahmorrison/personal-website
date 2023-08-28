@@ -14,7 +14,8 @@ body {
 
 body {
   color: $text-primary;
-  background: $pseudo-black
+  background: $pseudo-black;
+  padding: 50px
 }
 
 a {
@@ -27,17 +28,17 @@ h1, h2, h3, h4, h5{
 }
 
 h1 {
-    font-size: 11.089rem;
+    font-size: $heading1;
 }
 h2 {
-    font-size: 6.854rem;
+    font-size: $heading2;
 }
 h3 {
-    font-size: 4.236rem;
+    font-size: $heading3;
 }
 h4 {
-    font-size: 2.618rem;
+    font-size: $heading4;
 }
 h5 {
-    font-size: 1.618rem;
+    font-size: $heading5;
 }
