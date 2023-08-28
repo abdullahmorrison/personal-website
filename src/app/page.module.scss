@@ -1,11 +1,8 @@
 @import 'variables.scss';
 
-.page{
-    height: 200vh;
-}
-
 .hero {
     height: 100vh;
+    padding: 50px;
 
     .name{
         position: absolute;
@@ -26,6 +23,7 @@
         }
     }
 }
+
 @keyframes slideUp {
     0% { transform: translateY(100%); }
     50% { transform: translateY(100%); }
