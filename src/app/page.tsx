@@ -57,6 +57,16 @@ export default function Home() {
           </ul>
         </div>
       </section>
+
+      <footer className={styles.footer}>
+        <h4 className={styles.logo}>My Portfolio</h4>
+        <ul>
+          <li><a href="https://linkedin.com/in/abdullah-morrison" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/abdullahmorrion" target="_blank">GitHub</a></li>
+          <li><a href="https://1drv.ms/w/s!AqCqUgZCz_SygvU10zYLa_qjeCIFJw?e=ZGIhZ1" target='_blank'>My Resume</a></li>
+        </ul>
+        <p>This website was made with NextJS.</p>
+      </footer>
     </div>
   )
 }
