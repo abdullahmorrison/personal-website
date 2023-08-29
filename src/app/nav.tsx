@@ -9,10 +9,7 @@ export default function nav() {
           <h5><a href="">Home</a></h5>
         </li>
         <li>
-          <h5><a href="">About</a></h5>
-        </li>
-        <li>
-          <h5><a href="">Contact</a></h5>
+          <h5><a href="mailto:abdullahmorrison@gmail.com">Contact</a></h5>
         </li>
       </ul>
     </nav>
