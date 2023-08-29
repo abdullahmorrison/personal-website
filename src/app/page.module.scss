@@ -24,10 +24,21 @@
     }
 }
 
+.p1{
+    background: url('./project-images/alveus-ambassadors.png');
+}
+.p2{
+    background: url('./project-images/twitch-chatbot.png');
+}
+.p3{
+    background: url('./project-images/motivation-scale.png');
+}
+.p4{
+    background: url('./project-images/erobb221-extension.png');
+}
 .project{
     height: 100vh;
 
-    background: url('./img.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
