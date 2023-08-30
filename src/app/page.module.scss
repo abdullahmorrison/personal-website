@@ -4,7 +4,7 @@
     height: 100vh;
     padding: 50px;
 
-    .name{
+    .fullName{
         position: absolute;
         bottom: 15%;
 
@@ -39,6 +39,7 @@
 .project{
     height: 100vh;
 
+    background-color: $pseudo-black;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -124,4 +125,22 @@
     0% { transform: translateY(-100%); }
     50% { transform: translateY(-100%); }
     100% { transform: translateY(0%); }
+}
+
+@media (max-width: 750px){
+    .name{
+        left: 20px;
+    }
+    .project{
+        height: 500px;
+        .projectInfo{
+            width: 100%;
+        }
+    }
+}
+  
+@media (max-width: 530px){
+    .fullName{
+        font-size: $heading3;
+    }
 }

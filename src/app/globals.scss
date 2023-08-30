@@ -41,3 +41,18 @@ h4 {
 h5 {
     font-size: $heading5;
 }
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: $heading2;
+  }
+  h2 {
+    font-size: $heading3;
+  }
+  h3 {
+    font-size: $heading4;
+  }
+  h4 {
+    font-size: $heading5;
+  }
+}

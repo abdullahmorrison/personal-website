@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <main className={styles.hero}>
         <Nav/>
-        <h1 className={styles.name}>
+        <h1 className={styles.fullName}>
           <span className={styles.firstName}><p>Abdullah</p></span>
           <span className={styles.lastName}><p>Morrison</p></span> 
         </h1>
@@ -19,7 +19,7 @@ export default function Home() {
           <p className={styles.description}>A Twitch extension that helps an animal sanctuary educate viewers about animal conservation</p>
 
           <ul className={styles.links}>
-            <li><a href="https://www.twitch.tv/alveussanctuary">view project</a></li>
+            <li><a href="https://www.twitch.tv/alveussanctuary" target='_blank'>view project</a></li>
             <li><a href="https://github.com/alveusgg/extension" target="_blank">git repo</a></li>
           </ul>
         </div>
