@@ -8,7 +8,7 @@ const shippori_mincho_b1 = Shippori_Mincho_B1({
 })
 
 export const metadata: Metadata = {
-  title: 'Abdullah Morrison',
+  title: 'Abdullah Morrison | Software Engineer',
   description: 'Abdullah Morrison is a software engineer based in Ottawa, Canada.',
 }
 
