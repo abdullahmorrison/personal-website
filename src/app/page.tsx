@@ -62,8 +62,8 @@ export default function Home() {
         <h4 className={styles.logo}>My Portfolio</h4>
         <ul>
           <li><a href="https://linkedin.com/in/abdullah-morrison" target="_blank">LinkedIn</a></li>
-          <li><a href="https://github.com/abdullahmorrion" target="_blank">GitHub</a></li>
-          <li><a href="https://1drv.ms/w/s!AqCqUgZCz_SygvU10zYLa_qjeCIFJw?e=ZGIhZ1" target='_blank'>My Resume</a></li>
+          <li><a href="https://github.com/abdullahmorrison" target="_blank">GitHub</a></li>
+          <li><a href="https://1drv.ms/b/s!AqCqUgZCz_Syg4F0bZUHvN0hEqdong?e=QDz0Qs" target='_blank'>My Resume</a></li>
         </ul>
         <p>This website was made with NextJS.</p>
       </footer>
