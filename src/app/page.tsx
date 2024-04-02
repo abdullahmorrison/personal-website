@@ -1,5 +1,5 @@
 import styles from './page.module.scss'
-import Nav from './nav'
+import Nav from './components/nav'
 
 export default function Home() {
   return (
