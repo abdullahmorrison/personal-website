@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Alveus Ambassadors",
+        "description": "A Twitch extension that helps an animal sanctuary educate viewers about animal conservation",
+        "imgSrc": "./project-images/alveus-ambassadors.png",
+        "links": [
+            {
+                "title": "view project",
+                "url": "https://www.twitch.tv/alveussanctuary"
+            },
+            {
+                "title": "git repo",
+                "url": "https://github.com/alveusgg/extension"
+            }
+        ]
+    },
+    {
+        "name": "Twitch Chatbot",
+        "description": "A chatbot that tells jokes, and facts, and links fun images for Twitch chatters to enjoy.",
+        "imgSrc": "./project-images/twitch-chatbot.png",
+        "links": [
+            {
+                "title": "git repo",
+                "url": "https://github.com/abdullahmorrison/TwitchChatBot"
+            }
+        ]
+    },
+    {
+        "name": "Motivation Scale",
+        "description": "A mindfulness tool about motivation.",
+        "imgSrc": "./project-images/motivation-scale.png",
+        "links": [
+            {
+                "title": "git repo",
+                "url": "https://github.com/abdullahmorrison/motivation-scale"
+            }
+        ]
+    },
+    {
+        "name": "Erobb221 Twitch Extension",
+        "description": "A Twitch extension that lets viewers play bingo about and throw tomatoes at erobb221.",
+        "imgSrc": "./project-images/erobb221-extension.png",
+        "links": [
+            {
+                "title": "git repo",
+                "url": "https://github.com/abdullahmorrison/Erobb221TwitchExtension"
+            }
+        ]
+    }
+]

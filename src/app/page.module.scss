@@ -24,61 +24,6 @@
     }
 }
 
-.p1{
-    background: url('./project-images/alveus-ambassadors.png');
-}
-.p2{
-    background: url('./project-images/twitch-chatbot.png');
-}
-.p3{
-    background: url('./project-images/motivation-scale.png');
-}
-.p4{
-    background: url('./project-images/erobb221-extension.png');
-}
-.project{
-    height: 100vh;
-
-    background-color: $pseudo-black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: right;
-
-
-    .projectInfo{
-        background-color: hsla(0, 0%, 0%, 0.67);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 10%;
-
-        height: 100%;
-        width: 50%;
-
-        .number{
-            color: $title-accent;
-        }
-        .name{
-            margin-bottom: 40px;
-        }
-        .description{
-            color: $text-secondary;
-        }
-        .links{
-            display: flex;
-            margin-top: 20px;
-            li{
-                list-style-type: none;
-                margin-right: 20px;
-                a{
-                    text-decoration: underline;
-                }
-            }
-        }
-    }
-}
-
 .footer{
     color: black;
     background-color: white;
@@ -126,19 +71,6 @@
     50% { transform: translateY(-100%); }
     100% { transform: translateY(0%); }
 }
-
-@media (max-width: 750px){
-    .name{
-        left: 20px;
-    }
-    .project{
-        height: 500px;
-        .projectInfo{
-            width: 100%;
-        }
-    }
-}
-  
 @media (max-width: 530px){
     .fullName{
         font-size: $heading3;
