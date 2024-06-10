@@ -1,5 +1,20 @@
 [
     {
+        "name": "Motivation Scale",
+        "description": "A mindfulness tool about motivation.",
+        "imgSrc": "./project-images/motivation-scale.png",
+        "links": [
+            {
+                "title": "view project",
+                "url": "https://www.motivationscale.com"
+            },
+            {
+                "title": "git repo",
+                "url": "https://github.com/abdullahmorrison/motivation-scale"
+            }
+        ]
+    },
+    {
         "name": "Alveus Ambassadors",
         "description": "A Twitch extension that helps an animal sanctuary educate viewers about animal conservation",
         "imgSrc": "./project-images/alveus-ambassadors.png",
@@ -22,17 +37,6 @@
             {
                 "title": "git repo",
                 "url": "https://github.com/abdullahmorrison/TwitchChatBot"
-            }
-        ]
-    },
-    {
-        "name": "Motivation Scale",
-        "description": "A mindfulness tool about motivation.",
-        "imgSrc": "./project-images/motivation-scale.png",
-        "links": [
-            {
-                "title": "git repo",
-                "url": "https://github.com/abdullahmorrison/motivation-scale"
             }
         ]
     },
